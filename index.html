@@ -4,6 +4,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>home page zhq123333</title>
+	
+	<script src="jquery-3.3.1.min.js">
+		$(document).ready(function(){
+
+			$("#b1").click(function(){$("#i1").hide();});
+
+   
+			});
+	</script>
+
+
 </head>
 <body style="background-color: black">
 
@@ -14,7 +25,9 @@
 	</style>
 	<div>
 		<h1 class = "text_center color_red">Welcome!</h1>
-		<img  src="cat1.jpeg" alt="this is a cat photo" width="800px" style="display: block;margin: auto;" >
+		<img  id="i1" src="cat1.jpeg" alt="this is a cat photo" width="800px" style="display: block;margin: auto;" ></img>
+		<button id="b1">click me</button>
+
 	</div>
 
 	<div>
