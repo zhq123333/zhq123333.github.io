@@ -10,7 +10,7 @@
 
 			$("#b1").click(function()
 				{
-					$("#i1").hide();
+					$("#i1").attr('src','cat2.jpg');
 			});
 
    
@@ -28,8 +28,8 @@
 	</style>
 	<div>
 		<h1 class = "text_center color_red">Welcome!</h1>
-		<p id="i1">
-			<img   src="cat1.jpeg" alt="this is a cat photo" width="800px" style="display: block;margin: auto;" ></img>
+		<p >
+			<img  id="i1" src="cat1.jpeg" alt="this is a cat photo" width="800px" style="display: block;margin: auto;" ></img>
 		</p>
 		
 		<button id="b1">click me</button>
